@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(231, 235, 248);
+}
+
+.fundo {
+    background-color: rgb(190, 178, 178);
+    height: 100%;
+    display: flex;
+    justify-content: flex;
+    flex-direction: column;
+}
+
+.page-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    padding: 15px;
+}
+
+.page-subtitle {
+    text-align: center;
+    font-size: 25px;
+}
+
+.result {
+    margin-top: 40px;
+    text-align: center;
+}
